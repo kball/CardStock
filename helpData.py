@@ -22,7 +22,7 @@ class HelpData():
         if typeStr == "image":                  return HelpDataImage
         if typeStr == "group":                  return HelpDataGroup
         if typeStr in ["line", "pen"]:          return HelpDataLine
-        if typeStr in ["shape", "oval", "rect"]:return HelpDataShape
+        if typeStr in ["shape", "oval", "rect", "poly"]:return HelpDataShape
         if typeStr == "roundrect":              return HelpDataRoundRectangle
         if typeStr == "card":                   return HelpDataCard
         if typeStr == "stack":                  return HelpDataStack
